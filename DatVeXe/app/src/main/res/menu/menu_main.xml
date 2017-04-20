@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Đăng Nhập"
+        android:orderInCategory="120"
+        android:id="@+id/menu_dn"
+        android:titleCondensed="ĐĂNG NHẬP"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        app:showAsAction="never" />
+    <item android:title="Đăng Ký"
+        android:orderInCategory="120"
+        android:id="@+id/menu_dk"
+        android:titleCondensed="ĐĂNG KÝ"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        app:showAsAction="never"/>
+
+    <item android:title="Đăng Xuất"
+        android:orderInCategory="120"
+        android:id="@+id/menu_dx"
+        android:titleCondensed="ĐĂNG XUẤT"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="50"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+</menu>
